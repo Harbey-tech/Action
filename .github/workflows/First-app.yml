@@ -22,6 +22,6 @@ jobs:
        
     - name: Run tests
       run: |
-         addition.py
-          python -m pytest addition.py
+         ls -la  # Optional: Debug file structure
+        pytest
    
